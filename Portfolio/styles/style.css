@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'cocogoose';
+    src: url(cocogoose.ttf);
+}
+:root{
+    --cor1:#2E1369;
+    --cor2:#9871EC;
+    --cor3:#682AE9;
+    --cor4:#433269;
+    --cor5:#5021B5;
+
+    --fontedestaque1: 'cocogoose',  sans-serif;
+}
+*{
+    margin: 0px;
+}
+header{
+    background-color: var(--cor4);
+    text-align: center;
+    color: #9871EC;
+    
+
+}
+nav{
+    color:white;
+    background-color: #433269;
+  
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin:10px;
+    
+}
+
+
+main{
+    background-color: black;
+}
+main h1{
+    color: var(--cor3);
+}
+
+nav{
+    
+}
