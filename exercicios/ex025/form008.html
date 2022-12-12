@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Formulario 088</title>
+</head>
+<body>
+ <h1>formulario 008 (output)</h1> 
+ <form action="cadastro.php">
+    <p>
+        <label for="idnumero1">Número 1:</label>
+        <input type="number" name="numero1" id="idnumero1" min="0" max="50" required oninput="isoma.innerHTML = Number(idnumero1.value) + Number(idnumero2.value) ">
+    
+    </p>
+    <p>
+        <label for="numero2">Número 2:</label>
+        <input type="number" name="numero2" id="idnumero2" min="0" max="30" oninput=" isoma.innerHTML = Number(idnumero1.value) + Number(idnumero2.value)">  
+    </p>
+    <p>
+        <label for="isoma">Soma:</label>
+        <output name="soma" id="isoma" >0</output>
+    </p>
+
+ </form>  
+</body>
+</html>
