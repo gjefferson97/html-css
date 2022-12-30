@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/*para todos*/
+*{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    color: aliceblue;
+    text-shadow: 2px 2px 1px #152591;
+}
