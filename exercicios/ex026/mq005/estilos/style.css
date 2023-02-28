@@ -17,7 +17,7 @@ header > h1 {
     text-align: center;
 }
 menu{
-    display: block;
+    display: none;
 }
 menu > ul {
     list-style-type: none;
@@ -31,9 +31,21 @@ menu > ul {
    border: 1px solid rgb(255, 255, 255);
    font-weight: bold;
    border-radius: 5px;
+   text-align: center;
  }
  menu > ul > li > a:hover {
     background-color: #63D6E6;
+ }
+ span#burguer{
+    background-color: #0c285c;
+    text-align: center;
+    color: white;
+    display: block;
+    padding: 10px;
+ }
+ span#burguer:hover{
+    background-color: #0c9af3;
+    cursor: pointer;
  }
 main{
     width: 90vw;    
