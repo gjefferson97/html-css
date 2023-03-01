@@ -26,12 +26,13 @@ menu > ul {
    display:block; 
    padding: 10px;
    text-decoration: none;
-   background-color:  #79CAFC;
-   color: #0c285c;
-   border: 1px solid rgb(255, 255, 255);
+   background-color:  #0c285c;
+   color: #fffffffd;
+   border: 1px solid rgba(255, 255, 255, 0.116);
    font-weight: bold;
-   border-radius: 5px;
+   border-radius: 3px;
    text-align: center;
+
  }
  menu > ul > li > a:hover {
     background-color: #63D6E6;
